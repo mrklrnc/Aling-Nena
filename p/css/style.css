@@ -1,0 +1,128 @@
+#indexbody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: wheat;
+}
+
+#homebody{
+    background-color: wheat;
+    margin: 0%;
+}
+.ulo{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+
+.container{
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 25px 25px;
+    background-color: black;
+    color: wheat;
+    width: 450px;
+    
+}
+
+.btn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#resetbtn,
+#loginbtn{
+    border: 1px solid black;
+    background-color: wheat;
+    height: 40px;
+    width: 80px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fieldinput{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#usernameinput,
+#passwordinput {
+    width: 440px; /* Set a fixed width */
+    border: 2px solid black;
+    background-color: wheat;
+    height: 40px;
+}
+
+#usernametext, #passwordtext{
+    margin-bottom: 10px;
+}
+
+.navbar{
+    background-color: black;
+    border: 5px solid black;
+}
+
+main{
+    margin: 20px;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a{
+    color: wheat;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: hsl(39, 77%, 73%);
+    color: black;
+}
+
+#storename{
+    text-align: center;
+    color: black;
+}
+
+#productForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.prudokto{
+    width: 280px;
+    margin-bottom: 10px;
+    height: 35px;
+}
+
+.addprdctbtn{
+    background-color: black;
+    color: wheat;
+}
+
+.addprdctbtn:hover{
+    background-color: hsl(39, 77%, 73%);
+    color: black;
+}
+
+hr {
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
+.navbar a.active {
+    background-color: hsl(39, 77%, 73%);
+    color: black;
+}
